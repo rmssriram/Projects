@@ -1,6 +1,9 @@
 
 
 import com.basic.JavaExamples.*;
+import com.intermediate.DataStructures.Factorial;
+import com.intermediate.DataStructures.Fibonacci;
+import com.intermediate.DataStructures.SingleDimensionalArray;
 
 
 import java.awt.*;
@@ -180,8 +183,6 @@ public class Main {
         customer1.deposit(2000);
         customer1.withdraw(4000);
 
-*/
-
 
         Insect insect = new Insect(5, 6);
         Spider spider = new Spider(13,true);
@@ -198,7 +199,7 @@ public class Main {
         cricket.jump();
 
 
-/*
+
         Dog dogInst =  new Dog("Puppy", 2);
         if(dogInst instanceof Dog){
             dogInst.play();
@@ -232,7 +233,30 @@ public class Main {
 
         Predicate isEven = num -> num % 2 == 0;
         System.out.println(isEven.test(2));
-*/
+**/
+
+//        Factorial factObj = new Factorial();
+//        int factResult = factObj.fact(5);
+//        System.out.println("5! is " + factResult);
+
+//        Fibonacci fibObj = new Fibonacci();
+//        int fibResult = fibObj.fib(6);
+//        if(fibResult==-1){
+//            System.out.println("Invalid Number that can't process Fibonacci");
+//        }
+//        else{
+//            System.out.println("Fibonacci Results : " + fibResult);
+//        }
+
+
+        SingleDimensionalArray sdaObj = new SingleDimensionalArray(10);
+        sdaObj.traverseArray();
+        sdaObj.insertArrayValueByLocation(5, 25);
+        sdaObj.insertArrayValueByLocation(6, 30);
+        sdaObj.insertArrayValueByLocation(5, 25);
+        sdaObj.insertArrayValueByLocation(11, 25);
+
+
 
     }
 }
