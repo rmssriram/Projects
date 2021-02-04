@@ -1,5 +1,6 @@
 package com.intermediate.DataStructures;
 
+// Find Factorial
 public class Factorial {
     public int fact(int n){
         if(n==0){

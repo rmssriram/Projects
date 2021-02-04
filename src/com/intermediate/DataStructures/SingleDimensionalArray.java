@@ -1,5 +1,6 @@
 package com.intermediate.DataStructures;
 
+//Example of Single Dimensional Array
 public class SingleDimensionalArray {
     int arr[] = null;
     public SingleDimensionalArray(int sizeOfArray){
